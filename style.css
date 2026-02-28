@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+header, h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header h1 {
+    width: 100%;
+    margin: 40px;
+}
+
+header img {
+    border-radius: 40%;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+section{
+    height: 400px;
+}
+
+section a, div a {
+    cursor: pointer;
+}
+
+.bolos{
+    display: flex;
+    justify-content: center;
+    padding: 30px
+}
+
+.boloCenoura, .boloChocolate{
+    
+    height: 300px;
+    width: 400px;
+    margin: 0px 20px;
+}
+
+h2{
+    
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section img, div img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.strogonoff {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.strogonoff h2 {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(0, 68, 124);
+    display: flex ;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: rgb(149, 192, 255);
+}
+
+
+
+
+
+
+
+
